@@ -42,14 +42,20 @@ This repository demonstrates how to use the whisper-dart package to perform voic
     
     If you are using an older version of Gradle, use this instead:
     
-    cssCopy code
-    
-     `sourceSets {
-         main {
-             java.srcDirs += 'src/main/kotlin'
-             jniLibs.srcDirs = ['src/main/jniLibs']
-         }
-     }` 
+ 	sourceSets {
+
+		main {
+
+			java.srcDirs += 'src/main/kotlin'
+
+			// jniLibs.srcDirs = ['src/main/jniLibs']
+
+			jniLibs.srcDirs = ['src/main/jniLibs']
+
+		}
+
+	}
+
     
 4.  Add the following packages to your `pubspec.yaml` file:
     
