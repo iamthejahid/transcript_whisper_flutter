@@ -76,6 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               Visibility(
                 visible: !is_procces,
+                replacement: const CircularProgressIndicator(),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -153,6 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           }
 
                           Future(() async {
+                            // ignore: avoid_print
                             print("Started transcribe");
 
                             Whisper whisper = Whisper(
@@ -180,7 +182,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
-                replacement: const CircularProgressIndicator(),
               ),
               Padding(
                 padding: const EdgeInsets.all(10),
