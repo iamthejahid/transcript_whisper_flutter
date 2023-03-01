@@ -59,12 +59,12 @@ This repository demonstrates how to use the whisper-dart package to perform voic
     
 4.  Add the following packages to your `pubspec.yaml` file:
     
-    yamlCopy code
+
     
-     `whisper_dart:
-     file_picker: ^5.2.5
-     cool_alert: ^1.1.0
-     path_provider: ^2.0.13` 
+	     whisper_dart:
+	     file_picker: ^5.2.5
+	     cool_alert: ^1.1.0
+	     path_provider: ^2.0.13
     
 5.  Download a preferred data set from [https://huggingface.co/datasets/ggerganov/whisper.cpp](https://huggingface.co/datasets/ggerganov/whisper.cpp) and place it in the assets folder of your project. Note that this will increase the size of your app, as the smallest data set is over 70MB. In this repository, the data set is not included due to GitHub's 50-file limit.
     
