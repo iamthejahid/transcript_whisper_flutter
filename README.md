@@ -23,16 +23,22 @@ This repository demonstrates how to use the whisper-dart package to perform voic
     
 3.  Add the following lines to your app-level `build.gradle` file:
     
-    cssCopy code
+    kotlinOptions {
     
-     `kotlinOptions {
-         jvmTarget = '1.8'
-     }
+	    jvmTarget = '1.8'
     
-     sourceSets {
-         main.java.srcDirs += 'src/main/kotlin'
-         main.jniLibs.srcDirs = ['src/main/jniLibs']
-     }` 
+    }
+    
+      
+    
+    sourceSets {
+    
+	    main.java.srcDirs += 'src/main/kotlin'
+	    
+	    main.jniLibs.srcDirs = ['src/main/jniLibs']
+    
+    }
+
     
     If you are using an older version of Gradle, use this instead:
     
