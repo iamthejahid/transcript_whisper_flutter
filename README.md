@@ -81,6 +81,3 @@ To run the demo, simply copy and paste the `main.dart` file from this repository
 
 This repository is based on the example folder from the [whisper_dart](https://github.com/azkadev/whisper_dart) package and the wisdom from [whisper_dart_my_first_test_v2](https://github.com/williamidt/whisper_dart_my_first_test_v2).
 
-
-**In action**
-![video](https://github.com/iamthejahid/transcript_whisper_flutter/blob/main/media/vid.mp4?raw=true)
