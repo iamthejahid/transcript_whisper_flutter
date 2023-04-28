@@ -66,7 +66,7 @@ This repository demonstrates how to use the whisper-dart package to perform voic
 	     cool_alert: ^1.1.0
 	     path_provider: ^2.0.13
     
-5.  Download a preferred data set from [https://huggingface.co/datasets/ggerganov/whisper.cpp](https://huggingface.co/datasets/ggerganov/whisper.cpp) and place it in the assets folder of your project. Note that this will increase the size of your app, as the smallest data set is over 70MB. In this repository, the data set is not included due to GitHub's 50-file limit.
+5.  Download a preferred data set from [https://huggingface.co/datasets/ggerganov/whisper.cpp](https://huggingface.co/datasets/ggerganov/whisper.cpp) and place it in the assets folder of your project. Note that this will increase the size of your app, as the smallest data set is over 70MB. In this repository, the data set is not included due to GitHub's 50 MB -file limit.
     
 6.  If you do not want to use the data set from the assets folder, you can remove or delete the `loadModel()` function from the `initState`, download the data set to your device, and choose it by pressing `set model`. For more information, please refer to the provided video.
     
